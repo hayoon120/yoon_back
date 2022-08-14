@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-k($z80-2meu&dtdk+8ohu)$nw(nynxr0q$&^k8ajs$p_oucgw)
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'www.dobback.com'
+    'www.dobback.com',
+    '192.168.1.150'
 ]
 
 
@@ -112,7 +113,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

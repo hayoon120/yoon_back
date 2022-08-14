@@ -19,5 +19,6 @@ import print.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', print.views.helloworld, name='helloworld'),
+    path('echo', print.views.helloworld, name='helloworld'),
+    path('status/', print.views.status, name='status'),
 ]
