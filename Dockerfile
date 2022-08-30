@@ -10,7 +10,7 @@ COPY ./ ./
 
 RUN apt-get update
 RUN apt-get install build-essential
-RUN apt-get install python3-dev default-libmysqlclient-dev build-essential
+RUN apt-get install python3-dev default-libmysqlclient-dev build-essential -y
 
 EXPOSE 8000
 
