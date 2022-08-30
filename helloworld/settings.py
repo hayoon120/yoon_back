@@ -94,7 +94,10 @@ DATABASES = {
         'USER': 'root',                        
         'PASSWORD': 'password',              
         'HOST': '192.168.1.150',               
-        'PORT': '3306',                     
+        'PORT': '3306',        
+        'OPTIONS': {
+            'auth_plugin': 'mysql_native_password'
+        }             
     }
 }
 
