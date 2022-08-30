@@ -96,7 +96,8 @@ DATABASES = {
         'HOST': '192.168.1.150',               
         'PORT': '3306',        
         'OPTIONS': {
-            'auth_plugin': 'mysql_native_password'
+            'auth_plugin': 'mysql_native_password',
+            "init_command": "SET GLOBAL max_connections = 100000",
         }             
     }
 }
